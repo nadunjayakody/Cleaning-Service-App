@@ -5,46 +5,45 @@ A full-stack web application for booking and managing cleaning services. Built w
 ---
 
 ## 📁 Project Structure
-
 cleaning-service-app/
-├── backend/
-│   ├── middleware/
+├── backend/                  # Backend - Node.js, Express, MongoDB
+│   ├── middleware/           # Authentication middleware
 │   │   └── auth.js
-│   ├── models/
+│   ├── models/               # Mongoose data models
 │   │   ├── User.js
 │   │   ├── Service.js
 │   │   └── Booking.js
-│   ├── routes/
+│   ├── routes/               # API route handlers
 │   │   ├── users.js
 │   │   ├── services.js
 │   │   └── bookings.js
-│   ├── seeder.js
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── public/
+│   ├── seeder.js             # Seed data for testing
+│   ├── server.js             # Backend entry point
+│   └── package.json          # Backend dependencies
+├── frontend/                 # Frontend - React + Redux
+│   ├── public/               # Public static files
 │   ├── src/
-│   │   ├── components/
+│   │   ├── components/       # Reusable UI components
 │   │   │   ├── Header.js
 │   │   │   ├── Loader.js
 │   │   │   ├── Message.js
 │   │   │   └── PrivateRoute.js
-│   │   ├── redux/
+│   │   ├── redux/            # Redux slices and store
 │   │   │   ├── slices/
 │   │   │   │   ├── authSlice.js
 │   │   │   │   ├── bookingSlice.js
 │   │   │   │   └── serviceSlice.js
 │   │   │   └── store.js
-│   │   ├── screens/
+│   │   ├── screens/          # Screen/page components
 │   │   │   ├── HomeScreen.js
 │   │   │   ├── LoginScreen.js
 │   │   │   ├── RegisterScreen.js
 │   │   │   ├── DashboardScreen.js
 │   │   │   └── BookingFormScreen.js
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
+│   │   ├── App.js            # Main app component
+│   │   └── index.js          # Entry point
+│   └── package.json          # Frontend dependencies
+└── README.md                 # Project documentation
 
 
 
