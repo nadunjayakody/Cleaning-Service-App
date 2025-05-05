@@ -3,7 +3,7 @@
 A full-stack web application for booking and managing cleaning services. Built with Node.js, Express, MongoDB (Backend) and React, Redux (Frontend).
 
 ---
-
+```
 ## 📁 Project Structure
 cleaning-service-app/
 ├── backend/                  # Backend - Node.js, Express, MongoDB
@@ -46,7 +46,7 @@ cleaning-service-app/
 └── README.md                 # Project documentation
 
 
-
+```
 ---
 
 ## 🚀 Features
